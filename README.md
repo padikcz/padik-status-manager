@@ -20,7 +20,7 @@ Nejnovější instalační ZIP najdete v sekci **Releases**:
 1. Otevřete stránku repozitáře na GitHubu.
 2. Vpravo klikněte na **Releases**.
 3. Otevřete nejnovější verzi.
-4. Stáhněte soubor `padik-status-manager-2.1.0.zip`.
+4. Stáhněte soubor `padik-status-manager-2.1.1.zip`.
 
 Nestahujte automatický GitHub soubor `Source code`, pokud chcete plugin rovnou instalovat ve WordPressu.
 
@@ -35,7 +35,7 @@ Nestahujte automatický GitHub soubor `Source code`, pokud chcete plugin rovnou 
 
 1. Ve WordPressu otevřete **Pluginy → Instalace pluginů**.
 2. Klikněte na **Nahrát plugin**.
-3. Vyberte soubor `padik-status-manager-2.1.0.zip`.
+3. Vyberte soubor `padik-status-manager-2.1.1.zip`.
 4. Klikněte na **Instalovat**.
 5. Po instalaci klikněte na **Aktivovat plugin**.
 
