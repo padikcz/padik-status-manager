@@ -6,7 +6,7 @@
 
 Chcete na svém WordPress webu zobrazovat aktuální stav serverů, webových stránek nebo dalších služeb monitorovaných pomocí **Uptime Kuma**?
 
-Plugin **Padik Status Manager** umožňuje propojit WordPress s veřejnou stavovou stránkou Uptime Kuma a zobrazit vybrané služby pomocí:
+Plugin **Padik Status Manager** propojí WordPress s veřejnou stavovou stránkou Uptime Kuma. Vybrané služby poté můžete zobrazit několika způsoby:
 
 - shortcodu,
 
@@ -16,15 +16,35 @@ Plugin **Padik Status Manager** umožňuje propojit WordPress s veřejnou stavov
 
 - několika samostatných seznamů služeb.
 
+## 📑 Obsah návodu
+
+- Stažení a instalace pluginu
+
+- Nastavení veřejné Status Page v Uptime Kuma
+
+- Propojení WordPressu s Uptime Kuma
+
+- Vytvoření a vložení seznamu služeb
+
+- Použití v Elementoru
+
+- Správa seznamů a aktualizace pluginu
+
+- Řešení nejčastějších problémů
+
 ## 📋 Co budete potřebovat
 
-Před instalací si připravte:
+Než začnete, ujistěte se, že máte k dispozici:
 
-✅ WordPress
-✅ PHP 7.4 nebo novější
-✅ nainstalovanou službu Uptime Kuma
-✅ veřejnou Status Page v Uptime Kuma
-✅ volitelně Elementor
+- WordPress,
+
+- PHP 7.4 nebo novější,
+
+- nainstalovanou službu Uptime Kuma,
+
+- veřejnou Status Page v Uptime Kuma,
+
+- volitelně také Elementor.
 
 Uptime Kuma můžete nainstalovat například pomocí komunitního skriptu pro Proxmox:
 
@@ -102,9 +122,7 @@ Slug je tedy poslední část adresy za /status/.
 
 ## ⚙️ 4. Propojení WordPressu s Uptime Kuma
 
-Ve WordPressu otevřete:
-
-**Nastavení → Padik Status Manager**
+Ve WordPressu otevřete **Nastavení → Padik Status Manager**.
 
 Vyplňte potřebné údaje.
 
@@ -136,13 +154,11 @@ Například:
 30 sekund
 ```
 
-Nakonec klikněte na:
-
-**💾 Uložit připojení**
+Nakonec klikněte na tlačítko **💾 Uložit připojení**.
 
 Plugin používá WordPress jako prostředníka mezi návštěvníkem a Uptime Kuma. Díky tomu není potřeba složitě nastavovat CORS.
 
-## 🗂️ 5. Vytvoření vlastního seznamu služeb
+## 🗂️ 5. Vytvoření seznamu služeb
 
 Po úspěšném uložení připojení můžete vytvořit vlastní seznam monitorů.
 
@@ -187,7 +203,7 @@ Například:
 >
 ℹ️ Identifikátor seznamu bude u každého vytvořeného seznamu jiný. Používejte vždy shortcode zobrazený přímo v administraci pluginu.
 
-## 📝 6. Vložení seznamu do stránky nebo příspěvku
+## 📝 6. Vložení seznamu na web
 
 Otevřete stránku nebo příspěvek, na kterém chcete zobrazit stav služeb.
 
@@ -207,7 +223,7 @@ Příklad:
 
 Po načtení stránky se zobrazí vybrané služby a jejich aktuální stav.
 
-## 🎨 7. Použití pluginu v Elementoru
+## 🎨 7. Použití v Elementoru
 
 Padik Status Manager obsahuje vlastní widget pro Elementor.
 
@@ -275,13 +291,11 @@ Stav není známý nebo se nepodařilo načíst data.
 
 Probíhá načítání aktuálního stavu.
 
-## ✏️ 8. Úprava existujícího seznamu
+## ✏️ 8. Úprava seznamu
 
 V nastavení pluginu najděte sekci **Uložené seznamy**.
 
-U požadovaného seznamu klikněte na:
-
-**Upravit**
+U požadovaného seznamu klikněte na **Upravit**.
 
 Plugin následně načte:
 
@@ -291,9 +305,7 @@ Plugin následně načte:
 
 - dříve vybrané služby.
 
-Po provedení změn klikněte na:
-
-**💾 Aktualizovat seznam**
+Po provedení změn klikněte na **💾 Aktualizovat seznam**.
 
 Shortcode zůstane stejný, takže jej nemusíte znovu vkládat na stránku.
 
@@ -301,9 +313,7 @@ Shortcode zůstane stejný, takže jej nemusíte znovu vkládat na stránku.
 
 Pokud již seznam nepotřebujete, můžete jej odstranit v sekci **Uložené seznamy**.
 
-U vybraného seznamu klikněte na:
-
-**Odstranit seznam**
+U vybraného seznamu klikněte na **Odstranit seznam**.
 
 >
 ⚠️ Po odstranění přestane shortcode daného seznamu fungovat. Zkontrolujte proto, zda shortcode není použitý na některé stránce.
@@ -312,9 +322,7 @@ U vybraného seznamu klikněte na:
 
 Novou verzi pluginu stáhněte ze sekce **Releases** na GitHubu.
 
-Poté ve WordPressu otevřete:
-
-**Pluginy → Instalace pluginů → Nahrát plugin**
+Poté ve WordPressu otevřete **Pluginy → Instalace pluginů → Nahrát plugin**.
 
 Nahrajte nový ZIP soubor. WordPress nabídne nahrazení aktuální verze pluginu novější verzí.
 
@@ -323,7 +331,7 @@ Nastavení a uložené seznamy by měly zůstat zachované.
 >
 🛡️ Před každou aktualizací doporučuji vytvořit zálohu webu.
 
-# 🛠️ Řešení nejčastějších problémů
+## 🛠️ Řešení nejčastějších problémů
 
 ## ❌ Monitory se nenačtou
 
@@ -405,19 +413,25 @@ Pomoci může také:
 
 - kontrola REST API WordPressu.
 
-# ✅ Závěr
+## ✅ Závěr
 
 **Padik Status Manager** umožňuje jednoduše zobrazit stav služeb z Uptime Kuma přímo na WordPress webu.
 
 Plugin nabízí:
 
-✅ propojení s Uptime Kuma
-✅ více vlastních seznamů
-✅ automatické obnovování stavu
-✅ jednoduché vložení pomocí shortcodu
-✅ vlastní widget pro Elementor
-✅ stylování jednotlivých stavů
-✅ WordPress REST proxy bez problémů s CORS
+- propojení s Uptime Kuma,
+
+- více vlastních seznamů,
+
+- automatické obnovování stavu,
+
+- jednoduché vložení pomocí shortcodu,
+
+- vlastní widget pro Elementor,
+
+- stylování jednotlivých stavů,
+
+- WordPress REST proxy bez nutnosti nastavovat CORS.
 
 ## 📥 Stažení pluginu
 
