@@ -36,16 +36,6 @@ Plugin **Padik Status Manager** propojí WordPress s veřejnou stavovou stránko
 
 Než začnete, ujistěte se, že máte k dispozici:
 
-- WordPress,
-
-- PHP 7.4 nebo novější,
-
-- nainstalovanou službu Uptime Kuma,
-
-- veřejnou Status Page v Uptime Kuma,
-
-- volitelně také Elementor.
-
 Uptime Kuma můžete nainstalovat například pomocí komunitního skriptu pro Proxmox:
 
 ```
@@ -418,20 +408,6 @@ Pomoci může také:
 **Padik Status Manager** umožňuje jednoduše zobrazit stav služeb z Uptime Kuma přímo na WordPress webu.
 
 Plugin nabízí:
-
-- propojení s Uptime Kuma,
-
-- více vlastních seznamů,
-
-- automatické obnovování stavu,
-
-- jednoduché vložení pomocí shortcodu,
-
-- vlastní widget pro Elementor,
-
-- stylování jednotlivých stavů,
-
-- WordPress REST proxy bez nutnosti nastavovat CORS.
 
 ## 📥 Stažení pluginu
 
