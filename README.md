@@ -47,7 +47,7 @@ https://community-scripts.org/scripts?q=Uptime+Kuma
 Plugin stáhnete z GitHubu:
 
 ```
-https://github.com/padikcz/padik-status-manager
+https://github.com/padikcz/padik-status-manager/releases
 ```
 
 Na stránce repozitáře otevřete sekci **Releases** a stáhněte nejnovější instalační ZIP soubor.
